@@ -1,0 +1,362 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+footer {
+    margin-top: auto;
+}
+
+.imgcontacto {
+    margin-top: 50px;
+    width: 400px;
+}
+
+.infocontactos {
+    margin-left: 45px;
+}
+
+
+@media (min-width: 480px) {
+    header{
+        display: flex;
+        flex-direction: column;
+        background-color: black;
+    }
+    
+    a{
+        text-decoration: none;
+    }
+    
+    .titulo {
+       text-align: center;
+    }
+    
+    #tituloid{
+        margin-bottom: 30px;
+    }
+    
+    h1{
+    color: white;
+    }
+    
+    .menu{
+        display: flex;
+        justify-content: center;
+        list-style: none;
+        text-decoration: none;
+        background-color: #2d4263;
+    }
+    
+    .botom{
+        display: inline-block;
+        padding: 1px;
+        margin: 20px 20px 10px 20px;
+        color: black;
+        border: solid 0px;
+        border-radius: 10px 10px 10px 10px;
+        background-color: #ecdbba;
+        width: 130px;
+        text-align: center;
+    }
+    
+    main{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    
+    .carrusel{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .carousel-caption{
+        color: black;
+    }
+    
+    footer{
+        background-color: #2d4263;
+        margin: 0px 0px -20px 0px;
+    }
+    
+    footer p{
+        color: white;
+        text-align: center;
+        padding: 30px;
+    }
+    .botom :hover{
+        border: solid 0px;
+        background-color: #ffc595;
+        text-align: center;
+        color: #2c1f15;
+        border-radius: 10px 10px 10px 10px;
+        transition-duration: 2s;
+    }
+    
+    .textopequeño{
+        color: white;
+    }
+    
+    footer {
+        padding: 20px;
+    }
+
+    .ContenedorExt {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .imgcontacto {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        margin: 0;
+    }
+}
+
+@media (min-width: 854px) {
+    header{
+        display: flex;
+        flex-direction: column;
+        background-color: black;
+    }
+    
+    a{
+        text-decoration: none;
+    }
+    
+    .titulo {
+       text-align: center;
+    }
+    
+    #tituloid{
+        margin-bottom: 30px;
+    }
+    
+    h1{
+    color: white;
+    }
+    
+    .menu{
+        display: flex;
+        justify-content: center;
+        list-style: none;
+        text-decoration: none;
+        background-color: #2d4263;
+    }
+    
+    .botom{
+        display: inline-block;
+        padding: 1px;
+        margin: 20px 20px 10px 20px;
+        color: black;
+        border: solid 0px;
+        border-radius: 10px 10px 10px 10px;
+        background-color: #ecdbba;
+        width: 130px;
+        text-align: center;
+    }
+    
+    main{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    
+    .carrusel{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .carousel-caption{
+        color: black;
+    }
+    
+    footer{
+        background-color: #2d4263;
+        margin: 0px 0px -20px 0px;
+    }
+    
+    footer p{
+        color: white;
+        text-align: center;
+        padding: 30px;
+    }
+    .botom :hover{
+        border: solid 0px;
+        background-color: #ffc595;
+        text-align: center;
+        color: #2c1f15;
+        border-radius: 10px 10px 10px 10px;
+        transition-duration: 2s;
+        font-weight: bold;
+    }
+    
+    .textopequeño{
+        color: white;
+    }
+    
+
+    footer {
+        padding: 20px;
+    }
+
+    .ContenedorExt {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .imgcontacto {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        margin: 0;
+    }
+}
+
+@media (min-width: 992px) {
+    header{
+        display: flex;
+        flex-direction: column;
+        background-color: black;
+    }
+    
+    a{
+        text-decoration: none;
+    }
+    
+    .titulo {
+       text-align: center;
+    }
+    
+    #tituloid{
+        margin-bottom: 30px;
+    }
+    
+    h1{
+    color: white;
+    }
+    
+    .menu{
+        display: flex;
+        justify-content: center;
+        list-style: none;
+        text-decoration: none;
+        background-color: #2d4263;
+    }
+    
+    .botom{
+        display: inline-block;
+        padding: 1px;
+        margin: 20px 20px 10px 20px;
+        color: black;
+        border: solid 0px;
+        border-radius: 10px 10px 10px 10px;
+        background-color: #ecdbba;
+        width: 130px;
+        text-align: center;
+    }
+    
+    main{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    
+    .carrusel{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .carousel-caption{
+        color: black;
+    }
+    
+    footer{
+        background-color: #2d4263;
+        margin: 0px 0px -20px 0px;
+    }
+    
+    footer p{
+        color: white;
+        text-align: center;
+        padding: 30px;
+    }
+    .botom :hover{
+        border: solid 0px;
+        background-color: #ffc595;
+        text-align: center;
+        color: #2c1f15;
+        border-radius: 10px 10px 10px 10px;
+        transition-duration: 2s;
+        font-weight: bold;
+    }
+    
+    .textopequeño{
+        color: white;
+    }
+    
+
+    footer {
+        padding: 20px;
+    }
+
+    .ContenedorExt {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .imgcontacto {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        margin: 0;
+    }
+}
+
+@media (min-width: 1200px) {
+    .titulo {
+        text-align: center;
+    }
+
+    #tituloid {
+        margin-bottom: 20px;
+    }
+
+    .menu {
+        justify-content: space-around;
+    }
+
+    .botom {
+        margin: 10px;
+        width: 150px;
+    }
+
+    main {
+        padding: 20px;
+    }
+
+    .txt {
+        width: auto;
+        margin: 20px;
+        padding: 4%;
+    }
+
+    footer {
+        padding: 20px;
+    }
+
+    .ContenedorExt {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .imgcontacto {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        margin: 0;
+    }
+}

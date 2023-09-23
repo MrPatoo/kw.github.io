@@ -1,0 +1,21 @@
+header{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+}
+
+a{
+    text-decoration: none;
+}
+
+.titulo {
+   text-align: center;
+}
+
+#tituloid{
+    margin-bottom: 30px;
+}
+
+h1{
+color: white;
+}

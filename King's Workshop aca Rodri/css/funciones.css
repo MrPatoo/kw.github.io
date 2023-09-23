@@ -1,0 +1,124 @@
+body{
+    justify-content: center;
+}
+.ContenedorCajas{
+    display: flex;
+
+}
+main{
+    left: 50%;
+}
+
+.ContenedorExt{
+    display: flex;
+    flex-direction: column;
+    width: 80%;height: 30%;
+    padding: 4%;
+    margin-left:5px;
+}
+
+
+.C1{
+
+    flex-direction: column;
+    display: flex;
+    padding: 9px;
+    color: rgb(26, 24, 39);
+    background-color: rgb(219, 229, 252);
+    text-align: center;
+    border: black solid 0px;
+    border-radius: 30px 30px 30px 30px;
+}
+
+.txt{
+    padding: 2%;
+    color: rgb(26, 24, 39);
+    background-color: rgb(233, 240, 255);
+    border-radius: 30px 30px 30px 30px;
+}
+
+.txtI{
+    border-radius: 10px 10px 10px 10px;
+}
+
+@media only screen and (max-width: 991px) {
+ 
+    .ContenedorCajas{
+        display: flex;
+    
+    }
+    
+    
+    .ContenedorExt{
+        display: flex;
+        flex-direction: column;
+        width: 100%;height: auto;
+        padding: 4%;
+        margin-left:5px;
+    }
+    
+    
+    .C1{
+        display: flex;
+        padding: 9px;
+        color: rgb(26, 24, 39);
+        background-color: rgb(219, 229, 252);
+        text-align: center;
+        border: black solid 0px;
+        border-radius: 30px 30px 30px 30px;
+    }
+    
+    .txt{
+        padding: 2%;
+        color: rgb(26, 24, 39);
+        background-color: rgb(233, 240, 255);
+        border-radius: 30px 30px 30px 30px;
+    }
+    
+    .txtI{
+        border-radius: 10px 10px 10px 10px;
+    }
+    /*caja Licencias*/
+
+}
+
+@media only screen and (max-width: 991px) {
+
+    
+    .ContenedorCajas{
+        display: flex;
+    
+    }
+    
+    
+    .ContenedorExt{
+        display: flex;
+        flex-direction: column;
+        width: 100%;height: auto;
+        padding: 4%;
+        margin-left:5px;
+    }
+    
+    
+    .C1{
+        display: flex;
+        padding: 9px;
+        color: rgb(26, 24, 39);
+        background-color: rgb(219, 229, 252);
+        text-align: center;
+        border: black solid 0px;
+        border-radius: 30px 30px 30px 30px;
+    }
+    
+    .txt{
+        padding: 2%;
+        color: rgb(26, 24, 39);
+        background-color: rgb(233, 240, 255);
+        border-radius: 30px 30px 30px 30px;
+    }
+    
+    .txtI{
+        border-radius: 10px 10px 10px 10px;
+    }
+ 
+}
